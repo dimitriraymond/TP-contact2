@@ -1,0 +1,28 @@
+<?php
+{
+    "name": "Contact/tp",                               //autochargement
+    "require": {
+        "michelf/php-parkdown": "1.9"
+    },
+    "authors": [
+        {
+            "name": "Dimitri Raymond",
+            "email":"contact@grafikart.fr"
+        }
+    ],
+    "require": {
+        "filp/whoops": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+            "App\\": "app/",
+            "System\\": "app/system/"
+      }  
+    }
+}
+        /* 
+        * To change this license header, choose License Headers in Project Properties.
+        * To change this template file, choose Tools | Templates
+        * and open the template in the editor.
+        */
+
